@@ -60,11 +60,11 @@ export default function Home({ history, user }) {
               View Rooms
             </Button>
           </Link>
-          <Button size='lg' onClick={handleOpenCreateRoom}>
+          <Button size='lg' onClick={handleOpenCreateRoom} colorScheme='pink' variant='solid'>
             Create a Room
           </Button>
           <Link to={{ pathname: "https://open.spotify.com/" }} target="_blank">
-          <Button size='lg' colorScheme='blue' variant='solid'>
+          <Button size='lg' colorScheme='purple' variant='solid'>
             Your Music
           </Button></Link>
         </ButtonGroup>
