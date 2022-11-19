@@ -20,17 +20,7 @@ function Room({ history }) {
   const toast = useToast();
 
   const handleOpenCreateRoom = () => {
-    if (user?.authenticated) {
-      onOpen();
-    } else {
-      toast({
-        title: 'Please login first',
-        status: 'info',
-        duration: 2000,
-        position: 'top',
-      });
-      history.push('/login');
-    }
+    onOpen();
   };
 
   return (

@@ -1,14 +1,8 @@
 [features]
 seeds = false
-[programs.devnet]
-muser = "4hvwMTDXN27NvQbSqXt53CSFa1N2KPkK7JR3q9WVoPuF"
 
 [registry]
 url = "https://anchor.projectserum.com"
-
-[provider]
-cluster = "devnet"
-wallet = "/Users/devyansh/.config/solana/id.json"
 
 [scripts]
 test = "node tests/muser.js"
